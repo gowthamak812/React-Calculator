@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './calculator/App';
 import reportWebVitals from './reportWebVitals';
+// import Garage from './class'
+// import Clock from './test';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    {/* <MyForm/> */}
+    {/* <Clock pen={['21' , ' ' , '22']} age="23"/> */}
+    {/* <Garage /> */}
   </React.StrictMode>
 );
 
